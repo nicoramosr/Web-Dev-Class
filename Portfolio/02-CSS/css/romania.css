@@ -1,3 +1,27 @@
 body {
     margin: 0;
+    width: 100px;
+    height: 100px;
+    font-size: 0;
+}
+
+.Top {
+    background: #002B7F;
+    width: 33.33%;
+    height: 100%;
+    display: inline-block;
+}
+
+.Middle {
+    background: #FCD116;
+    width: 33.33%;
+    height: 100%;
+    display: inline-block;
+}
+
+.Bottom {
+    background: #CE1126;
+    width: 33.33%;
+    height: 100%;
+    display: inline-block;
 }
