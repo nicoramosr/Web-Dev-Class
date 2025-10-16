@@ -1,0 +1,12 @@
+const starWarsQ = require('star-wars-quotes');
+const superHeroes = require('superheroes');
+const superVillains = require('supervillains');
+const fs = require('fs');
+
+console.log("Hello World from basicNode.js");
+
+console.log("The quote of today is " + starWarsQ.random());
+console.log("The battle of today is between " + superHeroes.random() + " and " + superVillains.random());
+
+const data = fs.readFileSync('data/data.txt', 'utf8');
+console.log(data);
